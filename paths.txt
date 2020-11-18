@@ -1,0 +1,74 @@
+Ursatech
+│
+├── analysis   Comment: All files in analysis can be found on my github repository
+│   ├── HSLS\ Data\ Analysis,\ Academic\ Performance\ as\ Related\ to\ Family\ Income,\ Poverty,\ and\ Race.ipynb
+│   ├── Household\ Pulse\ Survey\ Phase\ 1\ Data\ Analysis.ipynb
+│   └── paths.txt
+│
+└── data   Comment: Many of these files were too large to be included on Github and must be downloaded separately
+    ├── HSLS_2017_Datasets   Comment: All files in this directory can be downloaded from https://nces.ed.gov/OnlineCodebook/Session/Codebook/3018b123-a88e-4e8c-aae2-b8c5917398d3
+    │   ├── HSLS09_VariableList_BY-PETS-SR.xlsx
+    │   ├── HSLS_2017_CodeBook_Layout
+    │   │   ├── Codebook.txt
+    │   │   ├── Layout_SCHOOL.txt
+    │   │   └── Layout_STUDENT.txt
+    │   ├── hsls_09_school_v1_0.csv
+    │   ├── hsls_17_student.csv
+    │   └── ~$HSLS09_VariableList_BY-PETS-SR.xlsx
+    │
+    ├── Household_Pulse_Survey_Phase_1   Comment: All files in this directory can be downloaded from https://www.census.gov/programs-surveys/household-pulse-survey/datasets.html
+    │   ├── HPS_Week01_PUF_CSV
+    │   │   ├── pulse2020_data.dictionary_CSV_01.xlsx
+    │   │   ├── pulse2020_puf_01.csv
+    │   │   └── pulse2020_repwgt_puf_01.csv
+    │   ├── HPS_Week02_PUF_CSV
+    │   │   ├── pulse2020_data.dictionary_CSV_02.xlsx
+    │   │   ├── pulse2020_puf_02.csv
+    │   │   └── pulse2020_repwgt_puf_02.csv
+    │   ├── HPS_Week03_PUF_CSV
+    │   │   ├── pulse2020_data.dictionary_CSV_03.xlsx
+    │   │   ├── pulse2020_puf_03.csv
+    │   │   └── pulse2020_repwgt_puf_03.csv
+    │   ├── HPS_Week04_PUF_CSV
+    │   │   ├── pulse2020_data.dictionary_CSV_04.xlsx
+    │   │   ├── pulse2020_puf_04.csv
+    │   │   └── pulse2020_repwgt_puf_04.csv
+    │   ├── HPS_Week05_PUF_CSV
+    │   │   ├── pulse2020_data.dictionary_CSV_05.xlsx
+    │   │   ├── pulse2020_puf_05.csv
+    │   │   └── pulse2020_repwgt_puf_05.csv
+    │   ├── HPS_Week06_PUF_CSV
+    │   │   ├── pulse2020_data.dictionary_CSV_06.xlsx
+    │   │   ├── pulse2020_puf_06.csv
+    │   │   └── pulse2020_repwgt_puf_06.csv
+    │   ├── HPS_Week07_PUF_CSV
+    │   │   ├── pulse2020_data.dictionary_CSV_07.xlsx
+    │   │   ├── pulse2020_puf_07.csv
+    │   │   └── pulse2020_repwgt_puf_07.csv
+    │   ├── HPS_Week08_PUF_CSV
+    │   │   ├── pulse2020_data.dictionary_CSV_08.xlsx
+    │   │   ├── pulse2020_puf_08.csv
+    │   │   └── pulse2020_repwgt_puf_08.csv
+    │   ├── HPS_Week09_PUF_CSV
+    │   │   ├── pulse2020_data.dictionary_CSV_09.xlsx
+    │   │   ├── pulse2020_puf_09.csv
+    │   │   └── pulse2020_repwgt_puf_09.csv
+    │   ├── HPS_Week10_PUF_CSV
+    │   │   ├── pulse2020_data.dictionary_CSV_10.xlsx
+    │   │   ├── pulse2020_puf_10.csv
+    │   │   └── pulse2020_repwgt_puf_10.csv
+    │   ├── HPS_Week11_PUF_CSV
+    │   │   ├── pulse2020_data.dictionary_CSV_11.xlsx
+    │   │   ├── pulse2020_puf_11.csv
+    │   │   └── pulse2020_repwgt_puf_11.csv
+    │   └── HPS_Week12_PUF_CSV
+    │       ├── pulse2020_data.dictionary_CSV_12.xlsx
+    │       ├── pulse2020_puf_12.csv
+    │       └── pulse2020_repwgt_puf_12.csv
+    │
+    └── Pew\ Research\ Center\ W59_Jan20   Comment: Not sure where this came from
+        ├── ATP\ W59\ methodology.pdf
+        ├── ATP\ W59\ questionnaire.pdf
+        ├── ATP\ W59\ readme.txt
+        ├── ATP\ W59\ topline.pdf
+        └── ATP\ W59.sav

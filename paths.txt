@@ -1,8 +1,8 @@
 Ursatech
 │
 ├── analysis   Comment: All files in analysis can be found on my github repository
-│   ├── HSLS\ Data\ Analysis,\ Academic\ Performance\ as\ Related\ to\ Family\ Income,\ Poverty,\ and\ Race.ipynb
-│   ├── Household\ Pulse\ Survey\ Phase\ 1\ Data\ Analysis.ipynb
+│   ├── HSLS Data Analysis, Academic Performance as Related to Family Income, Poverty, and Race.ipynb
+│   ├── Household Pulse Survey Phase 1 Data Analysis.ipynb
 │   └── paths.txt
 │
 └── data   Comment: Many of these files were too large to be included on Github and must be downloaded separately
@@ -66,9 +66,9 @@ Ursatech
     │       ├── pulse2020_puf_12.csv
     │       └── pulse2020_repwgt_puf_12.csv
     │
-    └── Pew\ Research\ Center\ W59_Jan20   Comment: Not sure where this came from
-        ├── ATP\ W59\ methodology.pdf
-        ├── ATP\ W59\ questionnaire.pdf
-        ├── ATP\ W59\ readme.txt
-        ├── ATP\ W59\ topline.pdf
+    └── Pew Research Center W59_Jan20   Comment: Not sure where this came from, probably Kaggle
+        ├── ATP W59 methodology.pdf
+        ├── ATP W59 questionnaire.pdf
+        ├── ATP W59 readme.txt
+        ├── ATP W59 topline.pdf
         └── ATP\ W59.sav

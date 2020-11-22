@@ -1,6 +1,8 @@
 Ursatech
 │
 ├── analysis   Comment: All files in analysis can be found on my github repository
+│   ├── Basic\ Monthly\ Current\ Population\ Survey\ Data\ Analysis,\ Changes\ in\ Income\ and\ Employment\ Based\ on\ Race.html
+│   ├── Basic\ Monthly\ Current\ Population\ Survey\ Data\ Analysis,\ Changes\ in\ Income\ and\ Employment\ Based\ on\ Race.ipynb
 │   ├── HSLS\ Data\ Analysis,\ Academic\ Performance\ as\ Related\ to\ Family\ Income,\ Poverty,\ and\ Race.html
 │   ├── HSLS\ Data\ Analysis,\ Academic\ Performance\ as\ Related\ to\ Family\ Income,\ Poverty,\ and\ Race.ipynb
 │   ├── Household\ Pulse\ Survey\ Phase\ 1\ Data\ Analysis.ipynb

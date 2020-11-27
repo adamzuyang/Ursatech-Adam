@@ -14260,7 +14260,7 @@ a.anchor-link {
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="High-School-Longitudinal-Study-Data-Analysis:-Academic-Performance-as-Related-to-Family-Income,-Poverty,-and-Race">High School Longitudinal Study Data Analysis: Academic Performance as Related to Family Income, Poverty, and Race<a class="anchor-link" href="#High-School-Longitudinal-Study-Data-Analysis:-Academic-Performance-as-Related-to-Family-Income,-Poverty,-and-Race">&#182;</a></h1><ul>
-<li>Ursaminor Jupyter Notebook</li>
+<li>Ursatech Jupyter Notebook</li>
 <li>12 November 2020</li>
 <li>By Barnett Yang</li>
 </ul>
@@ -14278,6 +14278,7 @@ a.anchor-link {
 <li><a href="#measuresByPoverty">Academic Measures by Poverty: Mathematics, GPA, and College Attendance</a></li>
 <li><a href="#incpovaddvis">Additional visualizations: Academic Indicators by Income and Poverty</a></li>
 <li><a href="#measuresByRace">Academic Measures by Race: Mathematics, GPA, and College Attendance</a></li>
+<li><a href="#conclusions">Conclusions</a></li>
 </ul>
 
 </div>
@@ -14295,9 +14296,10 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Miscellaneous-Notes-and-Libraries-">Miscellaneous Notes and Libraries <a id="notes" /><a class="anchor-link" href="#Miscellaneous-Notes-and-Libraries-">&#182;</a></h2><p>Data is compiled from the following online codebook that contains detailed descriptions of the dataset variables: <a href="https://nces.ed.gov/OnlineCodebook/Session/Codebook/3018b123-a88e-4e8c-aae2-b8c5917398d3">https://nces.ed.gov/OnlineCodebook/Session/Codebook/3018b123-a88e-4e8c-aae2-b8c5917398d3</a></p>
+<h2 id="Miscellaneous-Notes-and-Libraries-">Miscellaneous Notes and Libraries <a id="notes" /><a class="anchor-link" href="#Miscellaneous-Notes-and-Libraries-">&#182;</a></h2><p>Data is compiled from the following online codebook that contains detailed descriptions of the dataset variables: <a href="https://nces.ed.gov/OnlineCodebook/Session/Codebook/3018b123-a88e-4e8c-aae2-b8c5917398d3">https://nces.ed.gov/OnlineCodebook/Session/Codebook/3018b123-a88e-4e8c-aae2-b8c5917398d3</a>.</p>
 <p>For the above URL, select "Student File", "BY student level composites", and the relevant variables you'd like to analyze.</p>
-<p>The full variable list can be found here: <a href="https://nces.ed.gov/surveys/hsls09/hsls09_data.asp">https://nces.ed.gov/surveys/hsls09/hsls09_data.asp</a></p>
+<p>The full variable list can be found here: <a href="https://nces.ed.gov/surveys/hsls09/hsls09_data.asp">https://nces.ed.gov/surveys/hsls09/hsls09_data.asp</a>.</p>
+<p>For additional documentation, see: <a href="https://nces.ed.gov/pubs2014/2014361.pdf">https://nces.ed.gov/pubs2014/2014361.pdf</a>.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
@@ -16135,11 +16137,11 @@ max       1.000000     1.000000
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>([&lt;matplotlib.axis.XTick at 0x7f9627da9970&gt;,
-  &lt;matplotlib.axis.XTick at 0x7f9627da9940&gt;,
-  &lt;matplotlib.axis.XTick at 0x7f9627da54c0&gt;,
-  &lt;matplotlib.axis.XTick at 0x7f96274a2970&gt;,
-  &lt;matplotlib.axis.XTick at 0x7f96274a2e80&gt;],
+<pre>([&lt;matplotlib.axis.XTick at 0x7fe8924a5d00&gt;,
+  &lt;matplotlib.axis.XTick at 0x7fe8924a5cd0&gt;,
+  &lt;matplotlib.axis.XTick at 0x7fe8924a1850&gt;,
+  &lt;matplotlib.axis.XTick at 0x7fe892576d00&gt;,
+  &lt;matplotlib.axis.XTick at 0x7fe892581250&gt;],
  [Text(0, 0, &#39;&#39;),
   Text(0, 0, &#39;&#39;),
   Text(0, 0, &#39;&#39;),
@@ -16353,7 +16355,7 @@ max       1.000000     1.000000
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[49]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">income_gpa</span> <span class="o">=</span> <span class="n">indicators</span><span class="p">[[</span><span class="s1">&#39;X2FAMINCOME&#39;</span><span class="p">,</span> <span class="s1">&#39;S4HSGPA&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -16380,7 +16382,7 @@ max       1.000000     1.000000
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[49]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
 
 
 
@@ -16453,7 +16455,7 @@ max       1.000000     1.000000
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[50]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
@@ -16475,7 +16477,7 @@ max       1.000000     1.000000
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[50]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
 
 
 
@@ -16509,7 +16511,7 @@ max       1.000000     1.000000
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">income_college</span> <span class="o">=</span> <span class="n">indicators</span><span class="p">[[</span><span class="s1">&#39;X2FAMINCOME&#39;</span><span class="p">,</span> <span class="s1">&#39;S3CLGFT&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -16536,7 +16538,7 @@ max       1.000000     1.000000
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
 
 
 
@@ -16609,7 +16611,7 @@ max       1.000000     1.000000
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
@@ -16633,7 +16635,7 @@ max       1.000000     1.000000
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[28]:</div>
 
 
 
@@ -16667,7 +16669,7 @@ max       1.000000     1.000000
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[61]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">poverty_math</span> <span class="o">=</span> <span class="n">indicators</span><span class="p">[[</span><span class="s1">&#39;X2POVERTY&#39;</span><span class="p">,</span> <span class="s1">&#39;X2TXMTH&#39;</span><span class="p">]]</span>
@@ -16688,7 +16690,7 @@ max       1.000000     1.000000
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[61]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
 
 
 
@@ -16755,7 +16757,7 @@ max       1.000000     1.000000
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[62]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
@@ -16777,7 +16779,7 @@ max       1.000000     1.000000
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[62]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
 
 
 
@@ -16943,7 +16945,7 @@ max       1.000000     1.000000
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[57]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">poverty_college</span> <span class="o">=</span> <span class="n">indicators</span><span class="p">[[</span><span class="s1">&#39;X2POVERTY&#39;</span><span class="p">,</span> <span class="s1">&#39;S3CLGFT&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -16970,7 +16972,7 @@ max       1.000000     1.000000
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[57]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
 
 
 
@@ -17043,7 +17045,7 @@ max       1.000000     1.000000
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[60]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
@@ -17066,7 +17068,7 @@ max       1.000000     1.000000
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[60]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[34]:</div>
 
 
 
@@ -17110,7 +17112,7 @@ max       1.000000     1.000000
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">analyze_race</span><span class="p">(</span><span class="n">race_num</span><span class="p">):</span>
@@ -17150,7 +17152,7 @@ max       1.000000     1.000000
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">native_cont</span><span class="p">,</span> <span class="n">native_quint</span><span class="p">,</span> <span class="n">native_gpa</span><span class="p">,</span> <span class="n">native_college</span> <span class="o">=</span> <span class="n">analyze_race</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
@@ -17231,7 +17233,7 @@ max      0.999700
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">asian_cont</span><span class="p">,</span> <span class="n">asian_quint</span><span class="p">,</span> <span class="n">asian_gpa</span><span class="p">,</span> <span class="n">asian_college</span> <span class="o">=</span> <span class="n">analyze_race</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
@@ -17312,7 +17314,7 @@ max       1.000000     1.000000
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">black_cont</span><span class="p">,</span> <span class="n">black_quint</span><span class="p">,</span> <span class="n">black_gpa</span><span class="p">,</span> <span class="n">black_college</span> <span class="o">=</span> <span class="n">analyze_race</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
@@ -17393,7 +17395,7 @@ max       0.999800     1.000000
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">hispanicnr_cont</span><span class="p">,</span> <span class="n">hispanicnr_quint</span><span class="p">,</span> <span class="n">hispanicnr_gpa</span><span class="p">,</span> <span class="n">hispanicnr_college</span> <span class="o">=</span> <span class="n">analyze_race</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
@@ -17474,7 +17476,7 @@ max      0.998200
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">hispanicrs_cont</span><span class="p">,</span> <span class="n">hispanicrs_quint</span><span class="p">,</span> <span class="n">hispanicrs_gpa</span><span class="p">,</span> <span class="n">hispanicrs_college</span> <span class="o">=</span> <span class="n">analyze_race</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
@@ -17555,7 +17557,7 @@ max       0.999600     1.000000
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">more_cont</span><span class="p">,</span> <span class="n">more_quint</span><span class="p">,</span> <span class="n">more_gpa</span><span class="p">,</span> <span class="n">more_college</span> <span class="o">=</span> <span class="n">analyze_race</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span>
@@ -17636,7 +17638,7 @@ max       0.999900     1.000000
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pacific_cont</span><span class="p">,</span> <span class="n">pacific_quint</span><span class="p">,</span> <span class="n">pacific_gpa</span><span class="p">,</span> <span class="n">pacific_college</span> <span class="o">=</span> <span class="n">analyze_race</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
@@ -17716,7 +17718,7 @@ max      1.000000
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">white_cont</span><span class="p">,</span> <span class="n">white_quint</span><span class="p">,</span> <span class="n">white_gpa</span><span class="p">,</span> <span class="n">white_college</span> <span class="o">=</span> <span class="n">analyze_race</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
@@ -17797,7 +17799,7 @@ max        1.000000      1.000000
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[44]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">race_gpas_array</span> <span class="o">=</span> <span class="p">[</span><span class="n">native_gpa</span><span class="p">,</span> <span class="n">asian_gpa</span><span class="p">,</span> <span class="n">black_gpa</span><span class="p">,</span> <span class="n">hispanicnr_gpa</span><span class="p">,</span> <span class="n">hispanicrs_gpa</span><span class="p">,</span> <span class="n">more_gpa</span><span class="p">,</span> <span class="n">pacific_gpa</span><span class="p">,</span> <span class="n">white_gpa</span><span class="p">]</span>
@@ -17886,17 +17888,17 @@ max        1.000000      1.000000
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[42]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[44]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>([&lt;matplotlib.axis.XTick at 0x7f96263a6b50&gt;,
-  &lt;matplotlib.axis.XTick at 0x7f96263a6a00&gt;,
-  &lt;matplotlib.axis.XTick at 0x7f96263b8cd0&gt;,
-  &lt;matplotlib.axis.XTick at 0x7f9626411a30&gt;,
-  &lt;matplotlib.axis.XTick at 0x7f9626411f40&gt;],
+<pre>([&lt;matplotlib.axis.XTick at 0x7fe89147ff10&gt;,
+  &lt;matplotlib.axis.XTick at 0x7fe89147fee0&gt;,
+  &lt;matplotlib.axis.XTick at 0x7fe8914990a0&gt;,
+  &lt;matplotlib.axis.XTick at 0x7fe8914ebdc0&gt;,
+  &lt;matplotlib.axis.XTick at 0x7fe8914f6310&gt;],
  [Text(0, 0, &#39;&#39;),
   Text(0, 0, &#39;&#39;),
   Text(0, 0, &#39;&#39;),
@@ -17961,12 +17963,13 @@ max        1.000000      1.000000
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Conclusions">Conclusions<a class="anchor-link" href="#Conclusions">&#182;</a></h2><p>There is a clear positive correlation between income and academic performance. People of higher income are associated with a higher mathematics quintile score, general mathematics proficiency measured by the HSLS First Follow-up math assessment, overall high school GPA, and chance of enrolling in college full-time as of November 2013 given that the student was in 9th grade in the fall of 2009. In addition, students in poverty (relative to the US Census 100% poverty threshold) tend to earn lower overall high school grades, have a decreased chance of enrolling in college full-time, and have reduced mathematics proficiency. In fact, when looking at the mathematics quintile distribution for students above the poverty line versus those below the poverty line, there is a negative and positive association, respectively, between the number of students in a particular mathematics quintile relative to how high that mathematics quintile is.</p>
+<h2 id="Conclusions">Conclusions<a id="conclusions" /><a class="anchor-link" href="#Conclusions">&#182;</a></h2><p>There is a clear positive correlation between income and academic performance. People of higher income are associated with a higher mathematics quintile score, general mathematics proficiency measured by the HSLS First Follow-up math assessment, overall high school GPA, and chance of enrolling in college full-time as of November 2013 given that the student was in 9th grade in the fall of 2009. In addition, students in poverty (relative to the US Census 100% poverty threshold) tend to earn lower overall high school grades, have a decreased chance of enrolling in college full-time, and have reduced mathematics proficiency. In fact, when looking at the mathematics quintile distribution for students above the poverty line versus those below the poverty line, there is a negative and positive association, respectively, between the number of students in a particular mathematics quintile relative to how high that mathematics quintile is.</p>
 <p>In terms of race, Asians vastly outperform students of other races in terms of mathematical ability and overall high school grades. People of color, especially those of Hispanic and African American origin, and with the exception of those of Asian descent, are associated with lower mathematics proficiency, probability of enrolling in college full-time, and lower overall high school grades. With the exception of those of Asian, White, and mixed-race descent (and not of Hispanic origin), there is a negative association between the number of students in a particular mathematics quintile relative to how high that mathematics quintile is.</p>
 <h3 id="Possible-hypotheses-explaining-correlations-between-income,-poverty-and-academic-performance">Possible hypotheses explaining correlations between income, poverty and academic performance<a class="anchor-link" href="#Possible-hypotheses-explaining-correlations-between-income,-poverty-and-academic-performance">&#182;</a></h3><ul>
 <li>High family income provides social stability for the student.<ul>
 <li>No need to take on full- or part-time jobs.</li>
 <li>Better social influences and environmental factors. Influence of drugs and alcohol from parents may be greatly reduced. Likely to grow up in affluent neighborhoods and enroll in good school districts.</li>
+<li>Students in poor socioeconomic standings may need to dedicate time away from school in order to help support their families.</li>
 <li>Free time allows the student to engage with friends and extracurricular activities. Improves academic and social efficacy.</li>
 <li>Ability to afford extracurricular enrichment. e.g. music, academic tutoring, traveling and community service abroad.</li>
 </ul>
@@ -17976,7 +17979,7 @@ max        1.000000      1.000000
 <h3 id="Possible-hypotheses-explaining-correlations-between-race-and-academic-performance">Possible hypotheses explaining correlations between race and academic performance<a class="anchor-link" href="#Possible-hypotheses-explaining-correlations-between-race-and-academic-performance">&#182;</a></h3><ul>
 <li>Socioeconomic factors<ul>
 <li>People of color generally have reduced incomes and face higher unemployment rates than those of the general population, with the notable exception of people who identify as being White or Asian. (See the analysis done for the Basic Month Current Population Survey.)</li>
-<li>There may be bias against people of color in the public education system. For example, people of color who aren't as socioeconomically affluent may not be able to live near good school districts or not afford educational enrichment programs. There may also be behavioral bias against people of color in the public education system by teachers or school administrators.</li>
+<li>There may be bias against people of color in the public education system. For example, people of color who aren't as socioeconomically affluent may not be able to live near good school districts or afford educational enrichment opportunities. Students of color in low socioeconomic standings may not be able to dedicate time to school if they are forced to help support their families. There may also be behavioral bias against people of color in the public education system by teachers or school administrators.</li>
 </ul>
 </li>
 </ul>

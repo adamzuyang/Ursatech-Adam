@@ -5,6 +5,10 @@ Ursatech
 │   ├── Basic\ Monthly\ Current\ Population\ Survey\ Data\ Analysis,\ Changes\ in\ Income\ and\ Employment\ Based\ on\ Race.ipynb
 │   ├── HSLS\ Data\ Analysis,\ Academic\ Performance\ as\ Related\ to\ Family\ Income,\ Poverty,\ and\ Race.html
 │   ├── HSLS\ Data\ Analysis,\ Academic\ Performance\ as\ Related\ to\ Family\ Income,\ Poverty,\ and\ Race.ipynb
+│   ├── HSLS\ Data\ Analysis,\ Modeling\ Academic\ Success.ipynb
+│   ├── HSLS\ Data\ Analysis,\ Modeling\ Mathematical\ Proficiency\ by\ Environmental\ and\ Socioeconomic\ Factors.html
+│   ├── HSLS\ Data\ Analysis,\ Modeling\ Mathematical\ Proficiency\ by\ Environmental\ and\ Socioeconomic\ Factors.ipynb
+│   ├── Household\ Pulse\ Survey\ Phase\ 1\ Data\ Analysis\ (retracted).ipynb
 │   ├── Household\ Pulse\ Survey\ Phase\ 1\ Data\ Analysis.ipynb
 │   ├── README.md
 │   └── paths.txt

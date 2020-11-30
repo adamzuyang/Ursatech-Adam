@@ -3,14 +3,58 @@ Ursatech
 ├── analysis   Comment: All files in analysis can be found on my github repository
 │   ├── Basic\ Monthly\ Current\ Population\ Survey\ Data\ Analysis,\ Changes\ in\ Income\ and\ Employment\ Based\ on\ Race.html
 │   ├── Basic\ Monthly\ Current\ Population\ Survey\ Data\ Analysis,\ Changes\ in\ Income\ and\ Employment\ Based\ on\ Race.ipynb
-│   ├── HSLS\ Data\ Analysis,\ Academic\ Performance\ as\ Related\ to\ Family\ Income,\ Poverty,\ and\ Race.html
+│   ├── HSLS\ Data\ Analysis,\ Academic\ Performance\ as\ Related\ to\ Family\ Income,\ Poverty,\ and\ Race\ (1).html
 │   ├── HSLS\ Data\ Analysis,\ Academic\ Performance\ as\ Related\ to\ Family\ Income,\ Poverty,\ and\ Race.ipynb
 │   ├── HSLS\ Data\ Analysis,\ Modeling\ Academic\ Success.ipynb
-│   ├── HSLS\ Data\ Analysis,\ Modeling\ Mathematical\ Proficiency\ by\ Environmental\ and\ Socioeconomic\ Factors.html
-│   ├── HSLS\ Data\ Analysis,\ Modeling\ Mathematical\ Proficiency\ by\ Environmental\ and\ Socioeconomic\ Factors.ipynb
+│   ├── HSLS\ Data\ Analysis,\ Modeling\ Mathematical\ Proficiency\ and\ High\ School\ GPA\ by\ Environmental\ and\ Socioeconomic\ Factors.html
+│   ├── HSLS\ Data\ Analysis,\ Modeling\ Mathematical\ Proficiency\ and\ High\ School\ GPA\ by\ Environmental\ and\ Socioeconomic\ Factors.ipynb
 │   ├── Household\ Pulse\ Survey\ Phase\ 1\ Data\ Analysis\ (retracted).ipynb
 │   ├── Household\ Pulse\ Survey\ Phase\ 1\ Data\ Analysis.ipynb
 │   ├── README.md
+│   ├── graphs
+│   │   ├── Employment_All_LinePlot.png
+│   │   ├── Employment_Asian_LinePlot.png
+│   │   ├── Employment_Black_LinePlot.png
+│   │   ├── Employment_Hisp_LinePlot.png
+│   │   ├── Employment_Native_LinePlot.png
+│   │   ├── Employment_Pacific_LinePlot.png
+│   │   ├── Employment_White_LinePlot.png
+│   │   ├── GPA_Income_BoxPlot.png
+│   │   ├── GPA_Income_PointPlot.png
+│   │   ├── GPA_Poverty_BoxPlot.png
+│   │   ├── GPA_Poverty_PointPlot.png
+│   │   ├── Income_All_LinePlot.png
+│   │   ├── Income_Asian_LinePlot.png
+│   │   ├── Income_Black_LinePlot.png
+│   │   ├── Income_College_BarPlot.png
+│   │   ├── Income_College_LinePlot.png
+│   │   ├── Income_GPA_BarPlot.png
+│   │   ├── Income_GPA_LinePlot.png
+│   │   ├── Income_Hisp_LinePlot.png
+│   │   ├── Income_MathQuints_LinePlot.png
+│   │   ├── Income_MathTheta_ViolinPlot.png
+│   │   ├── Income_Native_LinePlot.png
+│   │   ├── Income_Pacific_LinePlot.png
+│   │   ├── Income_White_LinePlot.png
+│   │   ├── Mathematics_Theta_Score_Income_BoxPlot.png
+│   │   ├── Mathematics_Theta_Score_Income_PointPlot.png
+│   │   ├── Mathematics_Theta_Score_Poverty_BoxPlot.png
+│   │   ├── Mathematics_Theta_Score_Poverty_PointPlot.png
+│   │   ├── Poverty_College_LinePlot.png
+│   │   ├── Poverty_GPA_LinePlot.png
+│   │   ├── Poverty_MathQuints_LinePlot.png
+│   │   ├── Poverty_Math_ViolinPlot.png
+│   │   ├── Poverty_Math_ViolinPlot.svg
+│   │   ├── Race_College_LinePlot.png
+│   │   ├── Race_GPA_LinePlot.png
+│   │   ├── Race_MathQuints_LinePlot.png
+│   │   ├── Unemployment_Rates_By_Race_LinePlot.png
+│   │   ├── Unemployment_Rates_By_Race_Table.png
+│   │   ├── income_gpa_stats_table.png
+│   │   ├── income_math_stats_table.png
+│   │   ├── lfpr_By_Race_LinePlot.png
+│   │   ├── poverty_gpa_stats_table.png
+│   │   └── poverty_math_stats_table.png
 │   └── paths.txt
 │
 ├── data   Comment: Many of these files were too large to be included on Github and must be downloaded separately
